@@ -1,0 +1,8 @@
+#github "SwiftyJSON/SwiftyJSON" >=2.3.0
+#github "Alamofire/Alamofire" >= 2.0.0
+#github "ReactiveX/RxSwift" >= 2.3.0
+#github "onevcat/Kingfisher" >= 2.2.0
+#github "SnapKit/SnapKit" >= 0.15.0
+#github "hackiftekhar/IQKeyboardManager"
+github "RNCryptor/RNCryptor" "RNCryptor-4.0.0"
+#github "MagicalPanda/MagicalRecord"

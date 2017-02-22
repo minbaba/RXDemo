@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MomentInputBar" customModule="miaomiao_v2" customModuleProvider="target">
+            <connections>
+                <outlet property="commitButton" destination="BTZ-PF-u2f" id="U2e-Mn-W31"/>
+                <outlet property="emojiButton" destination="Y64-1o-bdM" id="3E5-Az-es6"/>
+                <outlet property="inputBar" destination="ouK-X7-s0D" id="d8O-M1-OFY"/>
+                <outlet property="textHeight" destination="jg3-Eg-a3R" id="67t-Zu-FGl"/>
+                <outlet property="textInput" destination="aMD-p8-VrY" id="6sS-cE-0ob"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ouK-X7-s0D">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y64-1o-bdM">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="uve-np-iCW"/>
+                    </constraints>
+                    <state key="normal" image="动态_icon_emoji"/>
+                    <state key="selected" image="会话_icon_键盘"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTZ-PF-u2f">
+                    <rect key="frame" x="329" y="0.0" width="46" height="50"/>
+                    <color key="backgroundColor" red="0.37254901959999998" green="0.74901960779999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="Hut-oA-V1i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="评论">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ao3-RD-lpt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                    <color key="backgroundColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="KqB-Qh-iIm">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="constant">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aMD-p8-VrY" customClass="BaseTextView" customModule="miaomiao_v2" customModuleProvider="target">
+                    <rect key="frame" x="50" y="16" width="275" height="16"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="jg3-Eg-a3R"/>
+                    </constraints>
+                    <color key="textColor" red="0.34509803919999998" green="0.34509803919999998" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Y64-1o-bdM" firstAttribute="top" secondItem="ouK-X7-s0D" secondAttribute="top" id="6yj-5P-J33"/>
+                <constraint firstItem="BTZ-PF-u2f" firstAttribute="leading" secondItem="aMD-p8-VrY" secondAttribute="trailing" constant="4" id="Ebo-vo-c1u"/>
+                <constraint firstItem="aMD-p8-VrY" firstAttribute="top" secondItem="ouK-X7-s0D" secondAttribute="top" constant="16" id="Jd4-Gg-dHn"/>
+                <constraint firstAttribute="bottom" secondItem="BTZ-PF-u2f" secondAttribute="bottom" id="Kgx-ql-es0"/>
+                <constraint firstItem="Ao3-RD-lpt" firstAttribute="leading" secondItem="ouK-X7-s0D" secondAttribute="leading" id="MCj-5d-Lf3"/>
+                <constraint firstAttribute="trailing" secondItem="Ao3-RD-lpt" secondAttribute="trailing" id="Mus-Qb-MQS"/>
+                <constraint firstItem="Y64-1o-bdM" firstAttribute="leading" secondItem="ouK-X7-s0D" secondAttribute="leading" id="PDz-ZW-Gtv"/>
+                <constraint firstAttribute="bottom" secondItem="aMD-p8-VrY" secondAttribute="bottom" constant="16" id="UUy-1i-vOw"/>
+                <constraint firstItem="Ao3-RD-lpt" firstAttribute="top" secondItem="ouK-X7-s0D" secondAttribute="top" id="bI2-Db-WT2"/>
+                <constraint firstItem="aMD-p8-VrY" firstAttribute="leading" secondItem="Y64-1o-bdM" secondAttribute="trailing" constant="4" id="c4O-YV-YyT"/>
+                <constraint firstItem="BTZ-PF-u2f" firstAttribute="top" secondItem="ouK-X7-s0D" secondAttribute="top" id="hPj-Yl-Hty"/>
+                <constraint firstAttribute="trailing" secondItem="BTZ-PF-u2f" secondAttribute="trailing" id="vdI-b4-OrR"/>
+                <constraint firstAttribute="bottom" secondItem="Y64-1o-bdM" secondAttribute="bottom" id="zQX-g6-CiO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="会话_icon_键盘" width="22" height="22"/>
+        <image name="动态_icon_emoji" width="22" height="22"/>
+    </resources>
+</document>

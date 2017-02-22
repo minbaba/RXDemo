@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>会员0手续费---会员将账户余额提现至第三方免手续费，非会员收取20%手续费</string>
+	<string>会员折扣优惠---会员认识官方推荐的陌生好友享受会员特权优惠</string>
+	<string>查看关注我的人---会员可以查看有谁关注了我，让您随时了解喜欢自己的人</string>
+	<string>会员专属标签---会员拥有专属的会员标签，展示您的会员身份，让您与众不同</string>
+	<string>会员昵称颜色---会员昵称特殊颜色，让你在众人中脱颖而出</string>
+</array>
+</plist>

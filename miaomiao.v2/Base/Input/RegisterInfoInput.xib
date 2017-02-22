@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterInfoInput" customModule="miaomiao_v2" customModuleProvider="target">
+            <connections>
+                <outlet property="feelingView" destination="iN0-l3-epB" id="ml6-TM-NOa"/>
+                <outlet property="lovingButton" destination="iQv-Q2-8We" id="YtQ-Cg-sFZ"/>
+                <outlet property="marriedButton" destination="RCP-H3-DdS" id="aaD-Sn-S2b"/>
+                <outlet property="picker" destination="EtR-c2-Z43" id="hIJ-1L-Hrx"/>
+                <outlet property="pickerView" destination="XmG-K9-0wF" id="nSW-Rv-N3T"/>
+                <outlet property="singleButton" destination="GBq-l1-SPf" id="24t-9m-HWu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCP-H3-DdS">
+                    <rect key="frame" x="88" y="160" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NnD-yK-dYn"/>
+                        <constraint firstAttribute="width" constant="200" id="fR9-Xb-weZ"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="已婚">
+                        <color key="titleColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBq-l1-SPf">
+                    <rect key="frame" x="88" y="50" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="8rk-K5-ofk"/>
+                        <constraint firstAttribute="height" constant="40" id="ZTy-l1-mSY"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="单身">
+                        <color key="titleColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="单身">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQv-Q2-8We">
+                    <rect key="frame" x="87" y="105" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="fEW-Op-zDR"/>
+                        <constraint firstAttribute="width" constant="200" id="rlN-nv-dvY"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="恋爱">
+                        <color key="titleColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="恋爱">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GBq-l1-SPf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6hD-7y-6Wx"/>
+                <constraint firstItem="RCP-H3-DdS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EaN-My-YRL"/>
+                <constraint firstItem="iQv-Q2-8We" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GnV-Ys-DJb"/>
+                <constraint firstItem="GBq-l1-SPf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="VOq-FM-cD9"/>
+                <constraint firstItem="RCP-H3-DdS" firstAttribute="top" secondItem="iQv-Q2-8We" secondAttribute="bottom" constant="15" id="aSI-NL-Fhh"/>
+                <constraint firstItem="iQv-Q2-8We" firstAttribute="top" secondItem="GBq-l1-SPf" secondAttribute="bottom" constant="15" id="xBU-rM-dU8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="XmG-K9-0wF">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EtR-c2-Z43">
+                    <rect key="frame" x="54" y="15" width="267" height="220"/>
+                    <date key="date" timeIntervalSinceReferenceDate="486558232.27332598">
+                        <!--2016-06-02 11:03:52 +0000-->
+                    </date>
+                    <date key="minimumDate" timeIntervalSinceReferenceDate="-3187325143">
+                        <!--1899-12-31 15:54:17 +0000-->
+                    </date>
+                    <date key="maximumDate" timeIntervalSinceReferenceDate="1167552000">
+                        <!--2037-12-31 08:00:00 +0000-->
+                    </date>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EtR-c2-Z43" firstAttribute="centerY" secondItem="XmG-K9-0wF" secondAttribute="centerY" id="4VG-ed-RRp"/>
+                <constraint firstItem="EtR-c2-Z43" firstAttribute="top" secondItem="XmG-K9-0wF" secondAttribute="top" constant="15" id="8AZ-EI-uBO"/>
+                <constraint firstAttribute="trailing" secondItem="EtR-c2-Z43" secondAttribute="trailing" constant="54" id="XS2-XQ-zR1"/>
+                <constraint firstItem="EtR-c2-Z43" firstAttribute="centerX" secondItem="XmG-K9-0wF" secondAttribute="centerX" id="ozO-N0-Ycu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

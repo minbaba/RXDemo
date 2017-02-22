@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7296a6b9-7d2b-0b41-96a5-d8c6accf15bd++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7296a6b9-7d2b-0b41-96a5-d8c6accf15bd++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7296a6b9-7d2b-0b41-96a5-d8c6accf15bd++505" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0C8D559C-B40D-48AC-AF5C-400C27DBEA1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7296a6b9-7d2b-0b41-96a5-d8c6accf15bd++505" : "miaomiao-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "miaomiao.v2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "miaomiao.v2\/miaomiao.v2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.31.72:8443\/svn\/miaomiao-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7296a6b9-7d2b-0b41-96a5-d8c6accf15bd++505"
+    }
+  ]
+}

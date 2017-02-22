@@ -1,0 +1,2 @@
+/Users/zhengmin/Library/Developer/Xcode/DerivedData/miaomiao.v2-dtufxtfekamcqleipdbuoppbzcuq/Build/Products/Debug-iphoneos/miaomiao.v2.app
+iPhone Developer
